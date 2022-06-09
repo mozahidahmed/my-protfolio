@@ -1,0 +1,86 @@
+
+
+
+.navbar{
+    position: fixed;
+    bottom: 0;left:0; right: 0;
+    display: flex;
+    z-index: 1000;
+    align-items: flex-end;
+    
+}
+
+.navbar a{
+    padding: 2rem;
+    text-decoration: none;
+    flex: 1;
+    text-align: center;
+    transition: .2s linear;
+    font-weight: bold;
+    color:crimson;
+
+}
+
+
+.navbar i{
+    color: rgb(248, 156, 174);
+    padding-right: .5rem;
+    font-size: 18px;
+
+}
+
+
+.navbar a:hover {
+    background-color: crimson;
+    padding-bottom: 3rem;
+    color: azure;
+       
+    
+  
+
+
+}
+
+
+
+
+
+ 
+
+
+
+
+
+
+/* REPSONSIVE */
+@media (max-width:1200px) {
+html{
+    font-size: 55%;
+}
+    
+}
+@media (max-width:768px) {
+
+    .navbar i{
+        padding: 0;
+        font-size: 10px;
+
+    }
+
+  
+
+    .navbar span{
+        display: none;
+    }
+
+
+
+    
+}
+
+/* REPSONSIVE */
+
+
+
+
+

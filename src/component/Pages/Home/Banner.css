@@ -1,0 +1,5 @@
+.img-style img{
+    border: 2px solid crimson;
+    border-radius: 300px;
+    box-shadow: 20px;
+}
