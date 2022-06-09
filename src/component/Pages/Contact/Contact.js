@@ -39,7 +39,7 @@ const Contact = () => {
                     <i class="fa-solid fa-location-dot text-primary text-7xl"></i>
                     </figure>
                     <div class="card-body items-center text-center">
-                    <h1 className='text-white font-bold  text-2xl text-center'>Office</h1>
+                    <h1 className='text-white font-bold  text-2xl text-center'>Adress</h1>
                     <h1 className='text-white font-bold  text-1xl text-center'>Sahporan,Sylhet</h1>
 
                     </div>

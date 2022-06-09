@@ -21,11 +21,11 @@ const Banner = () => {
                   
                  
                  <div className='px-16 mt-16'>
-                        <h1 class="text-3xl font-bold text-white">HI, I'M MOZAHID</h1>
+                        <h1 class="text-3xl font-bold text-white">hi, i'm Mozahidul Islam</h1>
                         <h2 class="text-2xl font-bold text-primary mt-2 mb-2">Front-End Developer</h2>
-                        <p class=" text-1xl mt-2 mb-2   text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, dolores?</p>
-                        <Link to="/about"><button class="btn outer-shadow hover-in-shadow btn-primary button-one-style">ABOUT ME</button>
-                        </Link>
+                        <p class=" text-1xl mt-2 mb-2   text-white">I can easily create any web site.I can easily make web site responsive for all devices</p>
+                        <a href="https://drive.google.com/file/d/1GVTdNk45JToGXzGnVOedJnN0PjQOX9Ud/view?usp=sharing"><button class="px-6 py-2 btn-primary button-one-style font-bold">DOWNLOAD CV</button></a>   
+                        
                     </div>
 
                 

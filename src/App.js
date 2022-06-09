@@ -9,6 +9,7 @@ import Education from './component/Pages/Education/Education';
 import Home from './component/Pages/Home/Home';
 import Skill from './component/Pages/Skill/Skill';
 import Navbar from './component/Shared/Navbar';
+import Project from './component/Pages/Project/Project';
 
 
 
@@ -29,6 +30,8 @@ function App() {
      <Route path='/about' element={<About></About>}></Route>
      <Route path='/skill' element={<Skill></Skill>}></Route>
      <Route path='/education' element={<Education></Education>}></Route>
+     <Route path='/project' element={<Project></Project>}></Route>
+
      <Route path='/contact' element={<Contact></Contact>}></Route>
 
    </Routes>
