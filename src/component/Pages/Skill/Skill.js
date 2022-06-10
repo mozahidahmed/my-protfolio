@@ -12,63 +12,78 @@ const Skill = () => {
 
             <div className='grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16 mt-6'>
             
-            <div class="card h-48 w-64 shadow-xl card-style">
+            <div class="card py-12  h-48 w-64 shadow-xl card-style">
                    
                    <div class="card-body items-center text-center">
                    <h1 className='text-white font-bold  text-2xl text-center'>HTML</h1>
 
-                   <div class="radial-progress p-style text-primary" >80%</div> 
                    </div>
                </div>
-               
-
-               <div class="card   h-48 w-64 shadow-xl card-style">
+            
+            <div class="card py-12  h-48 w-64 shadow-xl card-style">
                    
                    <div class="card-body items-center text-center">
                    <h1 className='text-white font-bold  text-2xl text-center'>CSS</h1>
 
-                   <div class="radial-progress p-style text-primary" >80%</div> 
                    </div>
                </div>
-               
-
-               <div class="card   h-48 w-64 shadow-xl card-style">
+            
+            <div class="card py-12  h-48 w-64 shadow-xl card-style">
                    
                    <div class="card-body items-center text-center">
                    <h1 className='text-white font-bold  text-2xl text-center'>JAVASCRIPT</h1>
 
-                   <div class="radial-progress p-style text-primary" >80%</div> 
                    </div>
                </div>
-               
-               <div class="card   h-48 w-64 shadow-xl card-style">
+            
+            <div class="card py-12  h-48 w-64 shadow-xl card-style">
                    
                    <div class="card-body items-center text-center">
-                   <h1 className='text-white font-bold  text-2xl text-center'>MONGO DB</h1>
+                   <h1 className='text-white font-bold  text-2xl text-center'>MONGODB</h1>
 
-                   <div class="radial-progress p-style text-primary" >80%</div> 
                    </div>
                </div>
-               
-               <div class="card   h-48 w-64 shadow-xl card-style">
+            
+            <div class="card py-12  h-48 w-64 shadow-xl card-style">
                    
                    <div class="card-body items-center text-center">
-                   <h1 className='text-white font-bold  text-2xl text-center'>NODE JS</h1>
+                   <h1 className='text-white font-bold  text-2xl text-center'>EXPRESS.JS</h1>
 
-                   <div class="radial-progress p-style text-primary" >80%</div> 
                    </div>
                </div>
-               
-               <div class="card   h-48 w-64 shadow-xl card-style">
+            
+            <div class="card py-12  h-48 w-64 shadow-xl card-style">
                    
                    <div class="card-body items-center text-center">
-                   <h1 className='text-white font-bold  text-2xl text-center'>EXPRESS JS</h1>
+                   <h1 className='text-white font-bold  text-2xl text-center'>NODE.JS</h1>
 
-                   <div class="radial-progress p-style text-primary" >80%</div> 
                    </div>
                </div>
                
+            <div class="card py-12  h-48 w-64 shadow-xl card-style">
                    
+                   <div class="card-body items-center text-center">
+                   <h1 className='text-white font-bold  text-2xl text-center'>REACT.JS</h1>
+
+                   </div>
+               </div>
+               
+            <div class="card py-12  h-48 w-64 shadow-xl card-style">
+                   
+                   <div class="card-body items-center text-center">
+                   <h1 className='text-white font-bold  text-2xl text-center'>FIREBASE</h1>
+
+                   </div>
+               </div>
+               
+            <div class="card py-12  h-48 w-64 shadow-xl card-style">
+                   
+                   <div class="card-body items-center text-center">
+                   <h1 className='text-white font-bold  text-2xl text-center'>TAILWIND CSS</h1>
+
+                   </div>
+               </div>
+               
                    
             
                

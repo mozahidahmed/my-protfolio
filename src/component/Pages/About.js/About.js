@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './About.css';
 
 
@@ -56,8 +57,7 @@ const About = () => {
         <p className='text-white text-2xl'> email : <span className='text-primary  text-1xl'>  mozahidwebmin11d10@gmail.com</span></p>
         <p className='text-white text-2xl'> skill : <span className='text-primary  text-1xl'>   Front-end developer</span></p>
         <p className='text-white text-2xl'> Language : <span className='text-primary  text-1xl'>   English,Hindi,Bangladeshi</span></p>
-        <button class="btn outer-shadow hover-in-shadow btn-primary button-style mt-6 px-12">my CV</button>
-
+<Link to="/contact"><button class="btn outer-shadow hover-in-shadow btn-primary button-style mt-6 px-12">Contact Me</button></Link>
         
         
         </div>
