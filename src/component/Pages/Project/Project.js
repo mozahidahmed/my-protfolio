@@ -38,16 +38,16 @@ const Project = () => {
 
                         </p>
                         <a href="https://assignment-baro.web.app/">
-                            <button className='btn btn-primary m-2'>LIVE SITE</button>
+                            <button className='btn-style p-2 text-white m-2'>LIVE SITE</button>
                         </a>
                         
                         <a href="https://github.com/mozahidahmed/manufacture-client-site">
-                        <button className='btn btn-primary m-2'>CLIENT CODE</button>
+                        <button className='btn-style p-2 text-white m-2'>CLIENT CODE</button>
 
                         </a>
                         
                         <a href="https://github.com/mozahidahmed/manufacture-server-site">
-                        <button className='btn btn-primary m-2'>SERVER CODE</button>
+                        <button className='btn-style p-2 text-white m-2'>SERVER CODE</button>
                         </a>
 
                     </div>
@@ -93,16 +93,16 @@ const Project = () => {
 
                         </p>
                         <a href="https://furniture-warehouse-d4ac5.web.app/">
-                            <button className='btn btn-primary m-2'>LIVE SITE</button>
+                            <button className='btn-style p-2 text-white m-2'>LIVE SITE</button>
                         </a>
                         
                         <a href="https://github.com/mozahidahmed/warehouse-client-site">
-                        <button className='btn btn-primary m-2'>CLIENT CODE</button>
+                        <button className='btn-style p-2 text-white m-2'>CLIENT CODE</button>
 
                         </a>
                         
                         <a href="https://github.com/mozahidahmed/warehouse-server-site">
-                        <button className='btn btn-primary m-2'>SERVER CODE</button>
+                        <button className='btn-style p-2 text-white m-2'>SERVER CODE</button>
                         </a>
 
                     </div>
@@ -155,11 +155,11 @@ const Project = () => {
 
                     </p>
                     <a href="https://coffeehouse-52837.web.app/">
-                        <button className='btn btn-primary m-2'>LIVE SITE</button>
+                        <button className='btn-style p-2 text-white m-2'>LIVE SITE</button>
                     </a>
                     
                     <a href="https://github.com/mozahidahmed/coffeehouse-client-side">
-                    <button className='btn btn-primary m-2'>CLIENT CODE</button>
+                    <button className='btn-style p-2 text-white m-2'>CLIENT CODE</button>
 
                     </a>
                     

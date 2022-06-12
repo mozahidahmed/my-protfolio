@@ -10,6 +10,11 @@
     
 }
 
+.nav-style{
+   background-color:#0b0b0d;
+}
+
+
 .navbar a{
     padding: 2rem;
     text-decoration: none;
@@ -23,7 +28,7 @@
 
 
 .navbar i{
-    color: rgb(248, 156, 174);
+    
     padding-right: .5rem;
     font-size: 18px;
 
@@ -63,7 +68,7 @@ html{
 
     .navbar i{
         padding: 0;
-        font-size: 10px;
+        font-size: 15px;
 
     }
 
