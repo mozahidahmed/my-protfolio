@@ -30,7 +30,7 @@ function App() {
      <Route path='/skill' element={<Skill></Skill>}></Route>
      <Route path='/project' element={<Project></Project>}></Route>
      <Route path='/blog' element={<Blog></Blog>}></Route>
-
+{/* mozahid */}
      <Route path='/contact' element={<Contact></Contact>}></Route>
 
    </Routes>
