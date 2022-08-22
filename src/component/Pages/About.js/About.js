@@ -9,8 +9,7 @@ import './About.css';
 const About = () => {
     return (
 
-        <div className='py-6'>
-            <h1 className=' font-bold text-white text-3xl text-center mt-6'>ABOUT  <span className='text-primary font-bold'>ME</span></h1>
+        <div className=''>
 
             <div class="hero   flex justify-center p-12">
 

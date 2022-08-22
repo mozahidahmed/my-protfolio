@@ -10,6 +10,8 @@ const Banner = () => {
 
 
         <div className='banner'>
+        <h1 className=' font-bold text-white text-3xl text-center mt-6'>ABOUT  <span className='text-primary font-bold'>ME</span></h1>
+
             <div class="hero  gap-6 flex justify-center py-16">
 
                 <div class="hero-content flex-col lg:flex-row-reverse">

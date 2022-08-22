@@ -20,7 +20,6 @@ const Navbar = () => {
      <div className='px-12 py-12'>
             <nav className='navbar nav-style'>
          <Link to="/home"><AiOutlineHome className='text-2xl'></AiOutlineHome><span className='span mx-2'>Home</span></Link>
-         <Link to="/about"><AiOutlineHome className='text-2xl'></AiOutlineHome><span className='span mx-2'>About</span></Link>
 
          <Link to="/skill"><CgFileDocument className='text-2xl'></CgFileDocument> <span className='span  mx-2'>Skill</span></Link>
 
