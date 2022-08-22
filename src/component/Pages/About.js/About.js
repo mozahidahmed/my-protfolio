@@ -9,8 +9,8 @@ import './About.css';
 const About = () => {
     return (
 
-        <div className='py-12'>
-            <h1 className='text-white font-bold  text-3xl text-center mt-12'>ABOUT  <span className='text-primary font-bold'>ME</span></h1>
+        <div className='py-6'>
+            <h1 className=' font-bold text-white text-3xl text-center mt-6'>ABOUT  <span className='text-primary font-bold'>ME</span></h1>
 
             <div class="hero   flex justify-center p-12">
 
@@ -51,7 +51,7 @@ const About = () => {
                         </div>
 
 
-                      <div className='mt-6'>
+                      <div className='mt-2'>
                           <a href="https://github.com/mozahidahmed"><i class="fa-brands fa-github  text-2xl i-style mx-6"></i></a>
 
                       <i class="fa-brands fa-facebook text-2xl i-style mx-6 "></i>
