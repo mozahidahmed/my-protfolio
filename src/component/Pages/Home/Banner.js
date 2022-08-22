@@ -9,8 +9,8 @@ const Banner = () => {
 
 
 
-        <div className='banner py-24'>
-            <div class="hero   flex justify-center p-12">
+        <div className='banner'>
+            <div class="hero  gap-6 flex justify-center py-16">
 
                 <div class="hero-content flex-col lg:flex-row-reverse">
 
@@ -23,7 +23,7 @@ const Banner = () => {
 
 
 
-                    <div className='px-16 mt-6'>
+                    <div className='px-16'>
                         <h1 class="text-2xl font-bold text-white">Hi, There</h1>
                         <h1 class="text-2xl font-bold text-white">I'M MOZAHIDUL ISLAM</h1>
                         <h2 class="text-2xl font-bold text-primary mt-2 mb-2"><Type></Type></h2>
