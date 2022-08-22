@@ -29,13 +29,13 @@
 
 .navbar i{
     
-    padding-right: .5rem;
-    font-size: 18px;
+    
+    /* font-size: 12px; */
 
 }
 
 
-.navbar a:hover {
+.navbar a:hover{
     background-color: crimson;
     padding-bottom: 3rem;
     color: azure;
@@ -70,7 +70,18 @@ html {
 
 
 
+@media (max-width:768px){
 
+.span{
+    display: none;
+
+}
+
+
+
+
+
+}
 
 
 

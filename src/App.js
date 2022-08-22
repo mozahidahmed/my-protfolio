@@ -26,14 +26,15 @@ function App() {
    <Routes>
      <Route path='/' element={<Home></Home>}></Route>
      <Route path='/home' element={<Home></Home>}></Route>
+     <Route path='/about' element={<About></About>}></Route>
    
-      
+
     
      
      <Route path='/skill' element={<Skill></Skill>}></Route>
      <Route path='/project' element={<Project></Project>}></Route>
      <Route path='/blog' element={<Blog></Blog>}></Route>
-{/* mozahid */}
+
      <Route path='/contact' element={<Contact></Contact>}></Route>
 
    </Routes>

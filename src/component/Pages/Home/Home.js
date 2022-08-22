@@ -1,14 +1,14 @@
 import React from 'react';
-import About from '../About.js/About';
+
 
 
 import Banner from './Banner';
 
 const Home = () => {
     return (
-        <div className="py-16">
+        <div className="min-h-screen py-6 px-12">
             <Banner></Banner>
-            <About> </About>
+           
 
         
             

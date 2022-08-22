@@ -1,17 +1,20 @@
-.card-style{
-    border: 1px solid crimson;
+.img-style img {
+    border-radius: 150px;
+    width: 300px;
 }
 
-
-.style-button {
-    border: 1px solid crimson ;
-
-}
-
-.i-style{
-    border: 1px solid crimson;
-    background-color: white;
-    color: crimson;
+/* .btn-style{
+    border:1px solid crimson  ;
     padding: 10px;
-    border-radius: 100%;
+    padding-left: 10px;
+    padding-right: 70px;
+    text-align: center;
+
+} */
+
+.btn-style{
+    border: 1px solid crimson ;
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
 }
