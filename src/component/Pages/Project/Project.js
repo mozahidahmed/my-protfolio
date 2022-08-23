@@ -1,19 +1,85 @@
 import React from 'react';
-import './Project.css';
-
-
 
 const Project = () => {
     return (
-        <div className="">
-
-         
+        <div className='py-16'>
 
 
-        </div>
-        
+    <div className='grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 mt-6'>
+
+
+
+    <div className="cart shadow-xl border-2 grid justify-center p-6">
+     <div className=''>
+      <img className='w-100%' src="https://i.ibb.co/5BHZrjy/20220610-140112.jpg" class="max-w-sm  shadow-2xl" alt="" />
+       </div>
+
+       <div className="">
+       <h2 class="text-2xl font-bold text-primary mt-2 mb-2">Parts Manufacture  Website</h2>
+       <h2 class="text-2xl  text-white mt-2 mb-2">React.js   ||   node.js   ||  mongodb</h2>
+       <a href="https://assignment-baro.web.app/">
+        <button className='btn-style p-2 text-white m-2'>LIVE SITE</button>
+       </a>
+       <a href="https://github.com/mozahidahmed/manufacture-client-site">
+     <button className='btn-style p-2 text-white m-2'>GIT CODE</button>
+      </a>
+
+       </div>
+    </div>
+
+
+
+
+    <div className="cart shadow-xl border-2 grid justify-center p-6">
+     <div className=''>
+      <img className='w-100%' src="https://i.ibb.co/TbCP8bf/20220610-140210.jpg" class="max-w-sm  shadow-2xl" alt="" />
+       </div>
+
+       <div className="text-white">
+       <h2 class="text-2xl font-bold text-primary mt-2 mb-2">Product Management  Website</h2>
+       <h2 class="text-2xl  text-white mt-2 mb-2">React.js   ||   node.js   ||  mongodb</h2>
+       <a href="https://furniture-warehouse-d4ac5.web.app/">
+        <button className='btn-style p-2 text-white m-2'>LIVE SITE</button>
+       </a>
+       <a href="https://github.com/mozahidahmed/warehouse-client-site">
+     <button className='btn-style p-2 text-white m-2'>GIT CODE</button>
+      </a>
+
+       </div>
+    </div>
+
+
+
+    <div className="cart shadow-xl border-2  grid justify-center p-6">
+     <div className=''>
+      <img className='w-100%' src="https://i.ibb.co/bsJ6QSP/20220610-140320.jpg" class="max-w-sm  shadow-2xl" alt="" />
+       </div>
+
+       <div className="text-white">
+       <h2 class="text-2xl font-bold text-primary mt-2 mb-2">Coffee-shop</h2>
+       <h2 class="text-2xl  text-white mt-2 mb-2">React.js   ||   node.js </h2>
+       <a href="https://coffeehouse-52837.web.app/">
+        <button className='btn-style p-2 text-white m-2'>LIVE SITE</button>
+       </a>
+       <a href="https://github.com/mozahidahmed/coffeehouse-client-side">
+     <button className='btn-style p-2 text-white m-2'>GIT CODE</button>
+      </a>
+
+       </div>
+    </div>
+
+
+
+
+
+
+
+
+</div>
+</div>
     );
 };
+
 export default Project;
 
 

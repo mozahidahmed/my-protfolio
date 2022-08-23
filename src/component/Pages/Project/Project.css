@@ -1,4 +1,4 @@
-.hero-style{
+ .hero-style{
     border: 1px solid crimson;
     margin-bottom:16px ;
 }
@@ -50,7 +50,7 @@
   width: 0%;
   height: 0px;
   background: #fff;
-  /* background: linear-gradient(to right,#edf2ff,#4da6ff); */
+  background: linear-gradient(to right,#edf2ff,#4da6ff); 
   
   transition: 0.5s;
   overflow: hidden;
@@ -74,4 +74,8 @@
      
   }
   
-  
+ 
+
+
+
+   
