@@ -9,9 +9,9 @@ import './Skill.css';
 
 const Skill = () => {
     return (
-      <div className='py-16'>
+      <div className='py-24'>
             <div className='grid grid-cols justify-center'>
-            <h1 className='text-white font-bold  text-3xl text-center mb-6'>PROFESSIONAL <span className='text-primary font-bold'>SKILL</span></h1>
+            <h1 className='text-white font-bold  text-3xl text-center mb-6'>PROFESSIONAL    <span className='text-primary font-bold'>SKILL</span></h1>
 
 
             <div className='grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16 mt-6'>

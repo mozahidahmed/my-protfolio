@@ -21,7 +21,7 @@ function sentEmail (e){
 
 
     return (
-        <div className='mt-12'>
+        <div className='mt-12 mb-6'>
 
             <h4 className='text-xl text-white text-center font-bold'>S E N T  <span className='text-primary font-bold'>M A I L</span></h4>
        

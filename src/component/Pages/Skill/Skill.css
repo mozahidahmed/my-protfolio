@@ -1,16 +1,13 @@
 .p-style{
-    --value:80;
+  --value:80;
 }
 
 .card-style{
-    
-  border:1px solid crimson  ;
-  
- 
+
+
 }
 
 .icon-style{
-    font-size: 110px;
-    
+  font-size: 110px;
+  
 }
-

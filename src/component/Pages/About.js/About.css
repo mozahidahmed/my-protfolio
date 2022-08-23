@@ -1,20 +1,17 @@
-.img-style img {
-    border-radius: 150px;
-    width: 300px;
+.card-style{
+    border: 1px solid crimson;
 }
 
-/* .btn-style{
-    border:1px solid crimson  ;
-    padding: 10px;
-    padding-left: 10px;
-    padding-right: 70px;
-    text-align: center;
 
-} */
-
-.btn-style{
+.style-button {
     border: 1px solid crimson ;
-    
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    
+
+}
+
+.i-style{
+    border: 1px solid crimson;
+    background-color: white;
+    color: crimson;
+    padding: 10px;
+    border-radius: 100%;
 }

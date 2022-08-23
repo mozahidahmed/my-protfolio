@@ -1,9 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Contact from '../Contact/Contact';
-import './About.css'
 
-
+import './About.css';
 
 
 
@@ -11,14 +9,13 @@ import './About.css'
 const About = () => {
     return (
 
+        <div className='py-12'>
+            <h1 className='text-white font-bold  text-3xl text-center mt-12'>ABOUT  <span className='text-primary font-bold'>ME</span></h1>
 
-<div className='py-16 min-h-screen'>
-            <h1 className='  font-bold text-white text-3xl text-center'>ABOUT  <span className='text-primary font-bold'>ME</span></h1>
-
-            <div class="hero   flex justify-center">
+            <div class="hero   flex justify-center p-12">
 
                 <div class="hero-content flex-col lg:flex-row-reverse img-style">
-                    <div className='img-style'>
+                    <div className='px-16 img-style'>
                         <img className='w-48' src="https://i.ibb.co/7phZ954/mozahid-mozahid.jpg" class="max-w-sm rounded-lg shadow-2xl" alt="" />
 
                     </div>
@@ -26,7 +23,7 @@ const About = () => {
 
 
 
-                    < div className=' text-white px-16'>
+                    < div className='px-16 mt-16 text-white'>
 
 
                         <div>Hello,I'am Mozahidul Islam,from Sylhet Bangladesh
@@ -54,12 +51,19 @@ const About = () => {
                         </div>
 
 
-                      <div className='mt-2'>
-                   <Link to='/contact'>  <button class="px-6 py-2 btn-style button-one-style mt-6 text-white">Contact Me</button></Link>
-                          {/* <a href="https://github.com/mozahidahmed"><i class="fa-brands fa-github  text-2xl i-style mx-6"></i></a>
+                      <div className='mt-6'>
+
+
+                     {/* <a href="https://github.com/mozahidahmed"><i class="fa-brands fa-github  text-2xl i-style mx-6"></i></a>
 
                       <i class="fa-brands fa-facebook text-2xl i-style mx-6 "></i>
-                      <Link to="/contact"><i class="fa-solid fa-envelope text-2xl i-style mx-6 "></i></Link> */}
+                      <Link to="/contact"><i class="fa-solid fa-envelope text-2xl i-style mx-6 "></i></Link>
+                         */}
+
+<Link to="/contact"><button class="px-12 py-2 btn-style button-one-style mt-6 text-white">Contact me</button></Link>   
+
+
+
 
                       </div>
                     </div>
@@ -78,10 +82,7 @@ const About = () => {
 
 
 
-        </div> 
-
-
-
+        </div>
 
 
 
@@ -89,5 +90,3 @@ const About = () => {
 };
 
 export default About;
-
-

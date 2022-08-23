@@ -1,29 +1,31 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 import {
 AiFillStar,AiOutlineHome,
 AiOutlineFundProjectionScreen,
 AiOutlineUser
+
 } from 'react-icons/ai';
 
 import {CgFileDocument} from 'react-icons/cg'
 import {CgPhone} from 'react-icons/cg'
 import {ImBlog} from 'react-icons/im'
-import './Navbar.css';
 
+
+import './Navbar.css';
 
 const Navbar = () => {
     return (
-     <div className=''>
-         <nav className='navbar nav-style'>
-            
-         <Link to="/home"><AiOutlineHome className=''></AiOutlineHome><span className='span'>Home</span></Link>
-         <Link to="/about"><AiOutlineHome className=''></AiOutlineHome><span className='span'>About</span></Link>
-         <Link to="/skill"><CgFileDocument className=''></CgFileDocument> <span className='span'>Skill</span></Link>
-         <Link to="/blog"><ImBlog className=''></ImBlog><span className='span'>Blog</span></Link>
-         <Link to="/project"><AiOutlineFundProjectionScreen className=''></AiOutlineFundProjectionScreen><span className='span  mx-2'>Project</span></Link>
-         
+     <div className='mt-12 px-12'>
+            <nav className='navbar nav-style'>
+         <Link to="/home"><AiOutlineHome className='text-2xl'></AiOutlineHome><span className='span mx-2'>Home</span></Link>
+         <Link to="/about"> <CgPhone  className='text-2xl'></CgPhone><span className='span  mx-2'>About</span></Link>
+
+         <Link to="/skill"><CgFileDocument className='text-2xl'></CgFileDocument> <span className='span  mx-2'>Skill</span></Link>
+
+
+         <Link to="/blog"><ImBlog className='text-2xl'></ImBlog><span className='span  mx-2'>Blog</span></Link>
+         <Link to="/project"><AiOutlineFundProjectionScreen className='text-2xl'></AiOutlineFundProjectionScreen><span className='span  mx-2'>Project</span></Link>
 
             
         </nav>
@@ -33,4 +35,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-
