@@ -19,7 +19,7 @@ const Navbar = () => {
      <div className='mt-12 px-12'>
             <nav className='navbar nav-style'>
          <Link to="/home"><AiOutlineHome className='text-2xl'></AiOutlineHome><span className='span mx-2'>Home</span></Link>
-         <Link to="/about"> <CgPhone  className='text-2xl'></CgPhone><span className='span  mx-2'>About</span></Link>
+         <Link to="/about"> <AiOutlineUser  className='text-2xl'></AiOutlineUser><span className='span  mx-2'>About</span></Link>
 
          <Link to="/skill"><CgFileDocument className='text-2xl'></CgFileDocument> <span className='span  mx-2'>Skill</span></Link>
 

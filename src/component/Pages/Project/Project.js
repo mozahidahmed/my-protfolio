@@ -1,11 +1,13 @@
 import React from 'react';
+import './Project.css'
 
 const Project = () => {
     return (
-        <div className='py-16'>
+        <div className='py-12 min-h-screen'>
 
+<h1 className='text-white font-bold  text-3xl text-center mb-12'>MY     <span className='text-primary font-bold'>PROJECT</span></h1>
 
-    <div className='grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 mt-6'>
+    <div className='grid py-6 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 mt-6'>
 
 
 
@@ -16,7 +18,7 @@ const Project = () => {
 
        <div className="">
        <h2 class="text-2xl font-bold text-primary mt-2 mb-2">Parts Manufacture  Website</h2>
-       <h2 class="text-2xl  text-white mt-2 mb-2">React.js   ||   node.js   ||  mongodb</h2>
+       <h2 class="font-bold text-[18px] text-white mt-2 mb-2">React.js   ||   node.js   ||  mongodb</h2>
        <a href="https://assignment-baro.web.app/">
         <button className='btn-style p-2 text-white m-2'>LIVE SITE</button>
        </a>
@@ -37,7 +39,7 @@ const Project = () => {
 
        <div className="text-white">
        <h2 class="text-2xl font-bold text-primary mt-2 mb-2">Product Management  Website</h2>
-       <h2 class="text-2xl  text-white mt-2 mb-2">React.js   ||   node.js   ||  mongodb</h2>
+       <h2 class="font-bold text-[18px] text-white mt-2 mb-2">React.js   ||   node.js   ||  mongodb</h2>
        <a href="https://furniture-warehouse-d4ac5.web.app/">
         <button className='btn-style p-2 text-white m-2'>LIVE SITE</button>
        </a>
@@ -57,7 +59,7 @@ const Project = () => {
 
        <div className="text-white">
        <h2 class="text-2xl font-bold text-primary mt-2 mb-2">Coffee-shop</h2>
-       <h2 class="text-2xl  text-white mt-2 mb-2">React.js   ||   node.js </h2>
+       <h2 class="font-bold text-[18px] text-white mt-2 mb-2">React.js   ||   node.js </h2>
        <a href="https://coffeehouse-52837.web.app/">
         <button className='btn-style p-2 text-white m-2'>LIVE SITE</button>
        </a>

@@ -1,9 +1,9 @@
- .hero-style{
+ .border-style{
     border: 1px solid crimson;
     margin-bottom:16px ;
 }
 
-.box-style{
+/* .box-style{
 
     position: relative;
     width: 300px;
@@ -78,4 +78,4 @@
 
 
 
-   
+    */

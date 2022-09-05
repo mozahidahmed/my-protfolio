@@ -1,9 +1,10 @@
 import React from 'react';
 import ContactEmail from '../ContactEmail/ContactEmail';
 
+
 const Contact = () => {
     return (
- <div className='p-16 grid grid-cols justify-center mb-6'>
+ <div className='py-12 grid grid-cols justify-center mb-6 min-h-screen'>
          <h1 className='text-white font-bold  text-3xl text-center'>CONTACT <span className='text-primary font-bold'>US</span></h1>
 
 
