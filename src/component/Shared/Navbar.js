@@ -23,9 +23,10 @@ const Navbar = () => {
 
          <Link to="/skill"><CgFileDocument className='text-2xl'></CgFileDocument> <span className='span  mx-2'>Skill</span></Link>
 
-
-         <Link to="/blog"><ImBlog className='text-2xl'></ImBlog><span className='span  mx-2'>Blog</span></Link>
          <Link to="/project"><AiOutlineFundProjectionScreen className='text-2xl'></AiOutlineFundProjectionScreen><span className='span  mx-2'>Project</span></Link>
+
+         <Link to="/contact"><CgPhone className='text-2xl'></CgPhone><span className='span  mx-2'>Contact</span></Link>
+         
 
             
         </nav>

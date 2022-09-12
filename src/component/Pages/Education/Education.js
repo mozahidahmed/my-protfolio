@@ -40,15 +40,7 @@ const Education = () => {
 
 
              <div>
-             <div className='box'>
-                   <i className='fas fa-graduation-cap'></i> 
-                   <span className='text-2xl font-bold text-white'>2022</span>
-                   <h3 className='font-bold text-primary'>HONORS</h3>
-                   <h3 className='font-bold text-primary'>MC Collage, Sylhet</h3>
-                   <p className='text-white'>I am studying in the English depertment at MC Collage in Sylhet district.</p>
-
-                    
-                 </div>
+           
                  <div className='box'>
                    <i className='fas fa-graduation-cap'></i> 
                    <span className='text-2xl font-bold text-white'>2021</span>
@@ -58,6 +50,15 @@ const Education = () => {
                    <p className='text-white'>I did a course in web design and got a certificate</p>
 
                    
+                    
+                 </div>
+                 <div className='box'>
+                   <i className='fas fa-graduation-cap'></i> 
+                   <span className='text-2xl font-bold text-white'>2022</span>
+                   <h3 className='font-bold text-primary'>HONORS</h3>
+                   <h3 className='font-bold text-primary'>MC Collage, Sylhet</h3>
+                   <p className='text-white'>I am studying in the English depertment at MC Collage in Sylhet district.</p>
+
                     
                  </div>
                  <div className='box'>

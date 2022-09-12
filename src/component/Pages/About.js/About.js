@@ -4,6 +4,7 @@ import {AiFillGithub} from "react-icons/ai"
 import {BsFacebook} from "react-icons/bs"
 import {SiLinkedin} from "react-icons/si"
 import './About.css';
+import Education from '../Education/Education';
 
 
 
@@ -96,7 +97,7 @@ const About = () => {
             </div>
 
 
-
+<Education></Education>
 
 
         </div>
