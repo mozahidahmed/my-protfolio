@@ -31,9 +31,19 @@ const About = () => {
                         <img className='w-48' src="https://i.ibb.co/7phZ954/mozahid-mozahid.jpg" class="max-w-sm rounded-lg shadow-2xl" alt="" />
                       <div className="flex justify-center mt-2">
 
-                      <p className='text-2xl text-white style '> <AiFillGithub></AiFillGithub></p>
-                      <p className='text-2xl text-white style '> <BsFacebook></BsFacebook></p>
+
+
+                      <a href="https://github.com/mozahidahmed/"><p className='text-2xl text-white style'> <AiFillGithub></AiFillGithub></p></a>
+
+                      <a href="https://www.facebook.com/profile.php?id=100048932201779"><p className='text-2xl text-white style '> <BsFacebook></BsFacebook></p></a>
+
+
+                      <a href="https://www.linkedin.com/in/mozahid-islam043356241/">
                       <p className='text-2xl text-white style '> <SiLinkedin></SiLinkedin></p>
+                      </a>
+
+                    
+                      
 
                       </div>
                     </div>

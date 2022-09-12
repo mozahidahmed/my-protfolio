@@ -36,7 +36,7 @@ AOS.init({duration: 2000});
                         <h1 class="text-2xl font-bold text-white">hi, there</h1>
                         <h1 class="text-2xl font-bold text-white">I'M MOZAHIDUL ISLAM</h1>
                         <h2 class="text-2xl font-bold text-primary mt-2 mb-2"><Type></Type></h2>
-                        <p class=" text-1xl mt-6   text-white">I enjoy learn new skills and implementin then in real life.I like programming</p>
+                        <p class=" text-1xl mt-6   text-white">I enjoy learn new skills and implementin then in real life.I like programming.<br></br>I am always ready to learn new frameworks/technologies to keep myself update with the latest market trends.</p>
                         
                         <a href="https://drive.google.com/file/d/1F6ly4iI5i2jtwWhl4erxe4Ou36T5K-7J/view?usp=sharing"><button class="px-6 py-2  btn-style button-one-style flex mt-6 text-white">DOWNLOAD RESUME </button></a>   
                         
